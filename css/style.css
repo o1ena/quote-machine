@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    background: url('https://i1.imgpile.com/i/2016/07/24/4ba77c28808747519cebb54066693dff.jpg') no-repeat center fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+}
+i.left-quote {
+    font-size: 135%;
+    color: #3e464c;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+.btn-twitter {
+    background-color: transparent;
+    font-size: 180%;
+    color: #3e464c;
+    transition: opacity 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+.btn-twitter:hover {
+    opacity: 0.7;
+}
+.container {
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 25px;
+    width: 800px;
+    cursor: default;
+}
+p {
+    color: #fff;
+    margin: 25px;
+    font-weight: 500;
+}
+p:nth-child(2) {
+    font-size: 24px;
+}
+p:nth-child(4) {
+    font-style: italic;
+    font-size: 16px;
+}
+#info:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 6px;
+    opacity: 0.9;
+}
+.buttons {
+    margin-top: 15px;
+}
+.made-by {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.made-by a {
+    text-decoration: none;
+}
+.made-by a:hover {
+    font-weight: bold;
+}
+.made-by:hover {
+    cursor: default;
+}
